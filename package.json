@@ -1,0 +1,7 @@
+{
+  "name": "stop-deed-theft-landing",
+  "version": "1.0.0",
+  "scripts": {
+    "preview": "npx http-server ."
+  }
+}
