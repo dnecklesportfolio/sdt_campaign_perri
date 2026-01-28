@@ -57,13 +57,13 @@ The integrity of the Kings County Supreme Court is at stake. We look forward to 
     // 4. EMAIL BUTTON LOGIC
     const recipientsString = RECIPIENTS.join(',');
     const encodedSubject = encodeURIComponent(EMAIL_SUBJECT);
-    const encodedBody = encodeURIComponent(demandLetterText);
+    // const encodedBody = encodeURIComponent(demandLetterText);
 
-    const mailtoUrl = `mailto:${recipientsString}?subject=${encodedSubject}&body=${encodedBody}`;
+    const mailtoUrl = `mailto:${recipientsString}?subject=${encodedSubject}`;
 
     // Gmail Compose URL for Desktop Fallback
     // view=cm (compose mode), fs=1 (fullscreen/new window style), to=..., su=...
-    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(recipientsString)}&su=${encodedSubject}&body=${encodedBody}`;
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(recipientsString)}&su=${encodedSubject}`;
 
     if (emailBtn) {
         // Set default href for mobile/standard handling
