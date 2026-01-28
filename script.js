@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 1. RECIPIENTS CONFIGURATION
     const RECIPIENTS = [
-        'dwayneaneckles@gmail.com',
         'salazar@nysenate.gov',
         'DilanE@nyassembly.gov',
         'District36@council.nyc.gov',
