@@ -4,7 +4,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 1. RECIPIENTS CONFIGURATION
     const RECIPIENTS = [
-        'dwayneaneckles@gmail.com'
+        'dwayneaneckles@gmail.com',
+        'salazar@nysenate.gov',
+        'DilanE@nyassembly.gov',
+        'District36@council.nyc.gov',
+        'sdtcampaign@gmail.com',
+        'cjc@cjc.ny.gov',
+        'public.integrity@ag.ny.gov',
+        'CivilRights.Division@usdoj.gov'
     ];
 
     const EMAIL_SUBJECT = 'Re: Formal Request for Investigation – Procedural Irregularities in Index No. 4687/2012 (Mt. Zion Church of Christ Disciples)';
